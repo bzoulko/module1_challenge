@@ -1,7 +1,7 @@
 # Code Refactor Starter Code
-08/24/2022 - Updated the following:
-        1. Accessibility standards:<br>
-            a. Changed "div" to "section"
+08/24/2022 - Updated the following:<br>
+        <&emsp> 1. Accessibility standards:<br>
+            a. Changed "div" to "section"<br>
             b. added "alt" to image references
             c. added "meta name" for scalability.
             d. added "type=text/css" for "link" line in the "head" section. 
