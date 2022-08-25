@@ -7,7 +7,7 @@
 &emsp;&emsp;&emsp;d. added "type=text/css" for "link" line in the "head" section. <br>
 &emsp;&emsp;&emsp;e. added company name to "title" in the "head" section to make it more meaningful.<br>
 &emsp;&emsp;<b>2.</b> Fixed the following semantics:<br>
-&emsp;&emsp;&emsp;a. Cost Management image reference had "</img>" at the end of the line.<br>
+&emsp;&emsp;&emsp;a. Cost Management image reference had "/img" at the end of the line.<br>
 &emsp;&emsp;&emsp;b. Changed body/section/section to body/section/nav for better structure and standards.<br>
 &emsp;&emsp;<b>3.</b> Additional functionality<br>
 &emsp;&emsp;&emsp;a. Added nav to css with display flex.<br>
