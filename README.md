@@ -13,6 +13,8 @@
             a. Added nav to css with display flex.
             b. Added main to css with display flex and wrapping.
             c. Added target to hyperlink sections to force them to open in a new window when clicked.
+        4. Updated CSS with comments to assist future programming changes.
+        5. Updated HTML with comments to assist future programming changes.
 
              
 

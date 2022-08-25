@@ -1,13 +1,18 @@
+/* Initialize the document */
 * {
+    /* Apply box border to the document with no padding and no margin. */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Document Body */
 body {
+    /* Apply background color */
     background-color: #d9dcd6;
 }
 
+/* Class Header primary settings */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +20,22 @@ body {
     color: #ffffff;
 }
 
+/* Class Header - h1 settings */
 .header h1 {
+    /* set as display to in-line and enlarge font size to 48px. */
     display: inline-block;
     font-size: 48px;
 }
 
+/* Class Header - h1, class .seo settings */
 .header h1 .seo {
+    /* Apply foreground color */
     color: #d9dcd6;
 }
 
+/* Class Header with a section - settings */
 .header section {
+    /* Apply padding around the section and adjust font-family */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,41 +43,48 @@ body {
     font-size: 20px;
 }
 
+/* Class Header with a section, unordered_list - settings */
 .header section ul {
+    /* define style section for unordered list style to none */
     list-style-type: none;
 }
 
+/* Class Header with a section, unordered_list, list_item - settings */
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Anchor element settings */
 a {
+    /* Change forground color and set text decortation to none */
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Paragraph element settings */
 p {
+    /* Set font size to 16px */
     font-size: 16px;
 }
 
-/* 
-    Adds flexibility to the navigation container.
-*/
+/* Navigation element settings */
 nav {
+    /* Adjust linked items */
     margin-left: 10px;
     font-style: italic;
 }
 
-/* 
-    Setup main with flex wrapping.
-*/
+/* Main element of the document body settings.*/
 main {
+    /* Appy flexibility */
     display: flex;
     flex-wrap: wrap;
 }
   
+/* Class hero  - settings */
 .hero {
+    /* Apply image settings */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -75,22 +93,26 @@ main {
     background-position: center;
 }
 
+/* Class float-left  - settings */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Class float-right  - settings */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Class content - settings */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Class benefits - settings */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,54 +124,64 @@ main {
     background-color: #2589bd;
 }
 
+/* Class benefit-lead - settings */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Class benefit-brand - settings */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Class benefit-cost - settings */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Class benefit-lead, h3 - settings */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Class benefit-brand, h3 - settings */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Class benefit-cost, h3 - settings */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Class benefit-lead, image - settings */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Class benefit-brand, image - settings */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Class benefit-cost, image - settings */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Class search-engine-optimization - settings */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -159,6 +191,7 @@ main {
     color: #ffffff;    
 }
 
+/* Class online-reputation-management - settings */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -168,6 +201,7 @@ main {
     color: #ffffff;
 }
 
+/* Class social-media-marketing - settings */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -177,33 +211,40 @@ main {
     color: #ffffff;
 }
 
+/* Class search-engine-optimization, image - settings */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* Class online-reputation-management, image - settings */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* Class social-media-marketing, image - settings */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Class search-engine-optimization, h2 - settings */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Class online-reputation-management, h2 - settings */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Class social-media-marketing, h2 - settings */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Class footer - settings */
 .footer {
     padding: 30px;
     clear: both;
@@ -211,6 +252,7 @@ main {
     text-align: center;
 }
 
+/* Class footer, h2 - settings */
 .footer h2 {
     font-size: 20px;
 }
