@@ -1,5 +1,5 @@
 # Code Refactor Starter Code
-<u><b>08/24/2022</b> - <i>Updated the following:</i></u><br>
+<b>08/24/2022</b> - <i>Updated the following:</i><br>
 &emsp;&emsp;<b>1.</b> Accessibility standards:<br>
 &emsp;&emsp;&emsp;a. Changed "div" to "section"<br>
 &emsp;&emsp;&emsp;b. added "alt" to image references<br>
